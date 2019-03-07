@@ -1,6 +1,6 @@
 package com.orm.record;
 
-import android.database.sqlite.SQLiteException;
+import org.sqlite.database.sqlite.SQLiteException;
 
 import com.orm.app.ClientApp;
 import com.orm.dsl.BuildConfig;

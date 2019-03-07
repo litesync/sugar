@@ -2,9 +2,9 @@ package com.orm;
 
 import android.content.ContentValues;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteException;
-import android.database.sqlite.SQLiteStatement;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteException;
+import org.sqlite.database.sqlite.SQLiteStatement;
 import android.text.TextUtils;
 import android.util.Log;
 import com.orm.annotation.Table;

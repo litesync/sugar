@@ -1,10 +1,10 @@
 package com.orm.util;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteCursor;
-import android.database.sqlite.SQLiteCursorDriver;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteQuery;
+import org.sqlite.database.sqlite.SQLiteCursor;
+import org.sqlite.database.sqlite.SQLiteCursorDriver;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteQuery;
 import android.util.Log;
 
 public class SugarCursorFactory implements SQLiteDatabase.CursorFactory {

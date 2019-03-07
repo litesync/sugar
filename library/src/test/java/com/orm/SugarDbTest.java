@@ -1,6 +1,6 @@
 package com.orm;
 
-import android.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteDatabase;
 
 import com.orm.app.ClientApp;
 import com.orm.dsl.BuildConfig;
